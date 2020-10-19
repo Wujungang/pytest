@@ -1,12 +1,12 @@
 {
-  "uid" : "a2dd5fb6a758c516",
-  "name" : "test_a",
-  "fullName" : "clsp.Test_App7.Test_ABC#test_a",
-  "historyId" : "58b5a1408927d284cfaee776d28ad0c3",
+  "uid" : "88478952e61c0466",
+  "name" : "test_c",
+  "fullName" : "clsp.Test_App7.Test_ABC#test_c",
+  "historyId" : "fc3003dd7467d1d97d6247383a487a8a",
   "time" : {
-    "start" : 1603088661924,
-    "stop" : 1603088662169,
-    "duration" : 245
+    "start" : 1603090534535,
+    "stop" : 1603090534535,
+    "duration" : 0
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,24 +14,8 @@
   "beforeStages" : [ {
     "name" : "_Class__pytest_setup_class",
     "time" : {
-      "start" : 1603088661922,
-      "stop" : 1603088661923,
-      "duration" : 1
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false,
-    "stepsCount" : 0
-  } ],
-  "afterStages" : [ {
-    "name" : "_Class__pytest_setup_class::0",
-    "time" : {
-      "start" : 1603088662183,
-      "stop" : 1603088662183,
+      "start" : 1603090534450,
+      "stop" : 1603090534450,
       "duration" : 0
     },
     "status" : "passed",
@@ -40,8 +24,24 @@
     "parameters" : [ ],
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "hasContent" : false,
-    "stepsCount" : 0
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1603090534536,
+      "stop" : 1603090534536,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
   } ],
   "labels" : [ {
     "name" : "parentSuite",
@@ -57,7 +57,7 @@
     "value" : "LAPTOP-LFNOOUSC"
   }, {
     "name" : "thread",
-    "value" : "25096-MainThread"
+    "value" : "17284-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -77,34 +77,10 @@
   "retry" : false,
   "extra" : {
     "severity" : "normal",
-    "retries" : [ {
-      "uid" : "810fe2bb1ae5ce5d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1603088597136,
-        "stop" : 1603088597247,
-        "duration" : 111
-      }
-    }, {
-      "uid" : "76a80f749c4c045a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1603088562760,
-        "stop" : 1603088562901,
-        "duration" : 141
-      }
-    }, {
-      "uid" : "4b285b8c8482165a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1603088483188,
-        "stop" : 1603088483323,
-        "duration" : 135
-      }
-    } ],
+    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a2dd5fb6a758c516.json",
+  "source" : "88478952e61c0466.json",
   "parameterValues" : [ ]
 }

@@ -1,4 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Mon Oct 19 14:24:21 CST 2020","Mon Oct 19 14:24:22 CST 2020","245","clsp","Test_App7","Test_ABC","","","test_a",""
-"broken","Mon Oct 19 14:24:22 CST 2020","Mon Oct 19 14:24:22 CST 2020","0","clsp","Test_App7","Test_ABC","","","test_b",""
-"passed","Mon Oct 19 14:24:22 CST 2020","Mon Oct 19 14:24:22 CST 2020","0","clsp","Test_App7","Test_ABC","","","test_c",""
+"failed","Mon Oct 19 14:55:34 CST 2020","Mon Oct 19 14:55:34 CST 2020","0","clsp","Test_App7","Test_ABC","","","test_b",""
+"passed","Mon Oct 19 14:55:34 CST 2020","Mon Oct 19 14:55:34 CST 2020","0","clsp","Test_App7","Test_ABC","","","test_c",""
+"passed","Mon Oct 19 14:55:34 CST 2020","Mon Oct 19 14:55:34 CST 2020","0","clsp","Test_App7","Test_ABC","","","test_a",""

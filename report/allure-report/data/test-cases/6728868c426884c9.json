@@ -1,23 +1,23 @@
 {
-  "uid" : "7202acd75c07b95",
+  "uid" : "6728868c426884c9",
   "name" : "test_b",
   "fullName" : "clsp.Test_App7.Test_ABC#test_b",
   "historyId" : "43da4557b374a843c9fab09c96fd64ea",
   "time" : {
-    "start" : 1603088597254,
-    "stop" : 1603088597254,
+    "start" : 1603090534458,
+    "stop" : 1603090534458,
     "duration" : 0
   },
-  "status" : "broken",
-  "statusMessage" : "_pytest.fixtures.FixtureLookupError: ('test_a', <FixtureRequest for <Function test_b>>)",
-  "statusTrace" : "file C:\\Users\\calis\\PycharmProjects\\pytest\\clsp\\Test_App7.py, line 42\n      @allure.story('暂存日报')\n      def test_b(self,test_a,test_c,setup_class):\nE       fixture 'test_a' not found\n>       available fixtures: _Class__pytest_setup_class, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, doctest_namespace, extra, metadata, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, setup_class, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory\n>       use 'pytest --fixtures [testpath]' for help on them.\n\nC:\\Users\\calis\\PycharmProjects\\pytest\\clsp\\Test_App7.py:42",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 0",
+  "statusTrace" : "self = <Test_App7.Test_ABC object at 0x047CD4F0>\n\n    def test_b(self):\n        print(999)\n>       assert 0\nE       assert 0\n\nclsp\\Test_App7.py:27: AssertionError",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "_Class__pytest_setup_class",
     "time" : {
-      "start" : 1603088597135,
-      "stop" : 1603088597135,
+      "start" : 1603090534450,
+      "stop" : 1603090534450,
       "duration" : 0
     },
     "status" : "passed",
@@ -26,14 +26,14 @@
     "parameters" : [ ],
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "hasContent" : false,
-    "stepsCount" : 0
+    "stepsCount" : 0,
+    "hasContent" : false
   } ],
   "afterStages" : [ {
     "name" : "_Class__pytest_setup_class::0",
     "time" : {
-      "start" : 1603088597263,
-      "stop" : 1603088597263,
+      "start" : 1603090534536,
+      "stop" : 1603090534536,
       "duration" : 0
     },
     "status" : "passed",
@@ -42,16 +42,10 @@
     "parameters" : [ ],
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "hasContent" : false,
-    "stepsCount" : 0
+    "stepsCount" : 0,
+    "hasContent" : false
   } ],
   "labels" : [ {
-    "name" : "feature",
-    "value" : "工作日报"
-  }, {
-    "name" : "story",
-    "value" : "暂存日报"
-  }, {
     "name" : "parentSuite",
     "value" : "clsp"
   }, {
@@ -65,7 +59,7 @@
     "value" : "LAPTOP-LFNOOUSC"
   }, {
     "name" : "thread",
-    "value" : "11052-MainThread"
+    "value" : "17284-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -81,12 +75,18 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
-    "categories" : [ ],
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
     "tags" : [ ]
   },
-  "source" : "7202acd75c07b95.json",
+  "source" : "6728868c426884c9.json",
   "parameterValues" : [ ]
 }

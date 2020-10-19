@@ -4,8 +4,8 @@
     "uid" : "742bb12705444ad355158474fa1ac4fe",
     "name" : "clsp",
     "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
+      "failed" : 1,
+      "broken" : 0,
       "skipped" : 0,
       "passed" : 2,
       "unknown" : 0,

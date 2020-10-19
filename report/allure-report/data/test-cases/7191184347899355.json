@@ -1,11 +1,11 @@
 {
-  "uid" : "52b8133ca2aca062",
-  "name" : "test_c",
-  "fullName" : "clsp.Test_App7.Test_ABC#test_c",
-  "historyId" : "fc3003dd7467d1d97d6247383a487a8a",
+  "uid" : "7191184347899355",
+  "name" : "test_a",
+  "fullName" : "clsp.Test_App7.Test_ABC#test_a",
+  "historyId" : "58b5a1408927d284cfaee776d28ad0c3",
   "time" : {
-    "start" : 1603088562904,
-    "stop" : 1603088562904,
+    "start" : 1603090534452,
+    "stop" : 1603090534452,
     "duration" : 0
   },
   "status" : "passed",
@@ -14,8 +14,8 @@
   "beforeStages" : [ {
     "name" : "_Class__pytest_setup_class",
     "time" : {
-      "start" : 1603088562759,
-      "stop" : 1603088562759,
+      "start" : 1603090534450,
+      "stop" : 1603090534450,
       "duration" : 0
     },
     "status" : "passed",
@@ -24,14 +24,14 @@
     "parameters" : [ ],
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "hasContent" : false,
-    "stepsCount" : 0
+    "stepsCount" : 0,
+    "hasContent" : false
   } ],
   "afterStages" : [ {
     "name" : "_Class__pytest_setup_class::0",
     "time" : {
-      "start" : 1603088562915,
-      "stop" : 1603088562915,
+      "start" : 1603090534536,
+      "stop" : 1603090534536,
       "duration" : 0
     },
     "status" : "passed",
@@ -40,16 +40,10 @@
     "parameters" : [ ],
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "hasContent" : false,
-    "stepsCount" : 0
+    "stepsCount" : 0,
+    "hasContent" : false
   } ],
   "labels" : [ {
-    "name" : "story",
-    "value" : "暂存日报"
-  }, {
-    "name" : "feature",
-    "value" : "工作日报"
-  }, {
     "name" : "parentSuite",
     "value" : "clsp"
   }, {
@@ -63,7 +57,7 @@
     "value" : "LAPTOP-LFNOOUSC"
   }, {
     "name" : "thread",
-    "value" : "8104-MainThread"
+    "value" : "17284-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -79,12 +73,14 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "52b8133ca2aca062.json",
+  "source" : "7191184347899355.json",
   "parameterValues" : [ ]
 }

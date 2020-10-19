@@ -2,25 +2,25 @@
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
   "children" : [ {
-    "name" : "Test defects",
+    "name" : "Product defects",
     "children" : [ {
-      "name" : "_pytest.fixtures.FixtureLookupError: ('test_a', <FixtureRequest for <Function test_b>>)",
+      "name" : "AssertionError: assert 0",
       "children" : [ {
         "name" : "test_b",
-        "uid" : "d5fda8c1f230f2c4",
-        "parentUid" : "847d34fe67c3c03a6cb7d73fc62e0c3d",
-        "status" : "broken",
+        "uid" : "6728868c426884c9",
+        "parentUid" : "c9c77d7ae15b4ab6e63220cefc19b68f",
+        "status" : "failed",
         "time" : {
-          "start" : 1603088662175,
-          "stop" : 1603088662175,
+          "start" : 1603090534458,
+          "stop" : 1603090534458,
           "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "847d34fe67c3c03a6cb7d73fc62e0c3d"
+      "uid" : "c9c77d7ae15b4ab6e63220cefc19b68f"
     } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
 }

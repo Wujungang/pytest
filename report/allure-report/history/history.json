@@ -1,20 +1,20 @@
 {
   "43da4557b374a843c9fab09c96fd64ea" : {
     "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
+      "failed" : 1,
+      "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d5fda8c1f230f2c4",
-      "status" : "broken",
-      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('test_a', <FixtureRequest for <Function test_b>>)",
+      "uid" : "6728868c426884c9",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 0",
       "time" : {
-        "start" : 1603088662175,
-        "stop" : 1603088662175,
+        "start" : 1603090534458,
+        "stop" : 1603090534458,
         "duration" : 0
       }
     } ]
@@ -29,11 +29,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c2be1fc3a3d3a1e4",
+      "uid" : "88478952e61c0466",
       "status" : "passed",
       "time" : {
-        "start" : 1603088662173,
-        "stop" : 1603088662173,
+        "start" : 1603090534535,
+        "stop" : 1603090534535,
         "duration" : 0
       }
     } ]
@@ -48,12 +48,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a2dd5fb6a758c516",
+      "uid" : "7191184347899355",
       "status" : "passed",
       "time" : {
-        "start" : 1603088661924,
-        "stop" : 1603088662169,
-        "duration" : 245
+        "start" : 1603090534452,
+        "stop" : 1603090534452,
+        "duration" : 0
       }
     } ]
   }
