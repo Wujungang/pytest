@@ -1,4 +1,3 @@
-# coding=utf-8
 import bar_chart_race as bcr
 
 # 如果出现SSL错误,则全局取消证书验证

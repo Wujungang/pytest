@@ -1,4 +1,3 @@
-# coding=utf-8
 import pytest
 
 @pytest.fixture(params=[1, 2, 3])
