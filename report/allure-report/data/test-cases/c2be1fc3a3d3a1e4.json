@@ -1,0 +1,110 @@
+{
+  "uid" : "c2be1fc3a3d3a1e4",
+  "name" : "test_c",
+  "fullName" : "clsp.Test_App7.Test_ABC#test_c",
+  "historyId" : "fc3003dd7467d1d97d6247383a487a8a",
+  "time" : {
+    "start" : 1603088662173,
+    "stop" : 1603088662173,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1603088661922,
+      "stop" : 1603088661923,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1603088662183,
+      "stop" : 1603088662183,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "clsp"
+  }, {
+    "name" : "suite",
+    "value" : "Test_App7"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_ABC"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-LFNOOUSC"
+  }, {
+    "name" : "thread",
+    "value" : "25096-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "clsp.Test_App7"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ee85d6568ec31f3c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603088597250,
+        "stop" : 1603088597250,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "52b8133ca2aca062",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603088562904,
+        "stop" : 1603088562904,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c367482bdab59d75",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603088483326,
+        "stop" : 1603088483326,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c2be1fc3a3d3a1e4.json",
+  "parameterValues" : [ ]
+}
