@@ -30,6 +30,10 @@ class Test_ABC:
         print(123)
         assert 1
 
+    def test_d(self):
+        print(123)
+        assert 1
+
 
 
 if __name__ == '__main__':
