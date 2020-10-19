@@ -1,0 +1,86 @@
+{
+  "uid" : "5db451da88d4530b",
+  "name" : "test_a",
+  "fullName" : "clsp.Test_App5.Test_ABC#test_a",
+  "historyId" : "704a662a6a08ee84b111c09aa68ddcd6",
+  "time" : {
+    "start" : 1602663492030,
+    "stop" : 1602663492030,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1602663492029,
+      "stop" : 1602663492030,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1602663492041,
+      "stop" : 1602663492041,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "clsp"
+  }, {
+    "name" : "suite",
+    "value" : "Test_App5"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_ABC"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-LFNOOUSC"
+  }, {
+    "name" : "thread",
+    "value" : "15616-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "clsp.Test_App5"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5db451da88d4530b.json",
+  "parameterValues" : [ ]
+}

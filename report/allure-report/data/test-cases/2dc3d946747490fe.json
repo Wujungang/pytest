@@ -1,0 +1,80 @@
+{
+  "uid" : "2dc3d946747490fe",
+  "name" : "test_a[3]",
+  "fullName" : "clsp.Test_App4.Test_ABC#test_a",
+  "historyId" : "2858af8ec6bf7f8cb45a726abd9eb294",
+  "time" : {
+    "start" : 1602663491972,
+    "stop" : 1602663491972,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 3 != 3",
+  "statusTrace" : "self = <Test_App4.Test_ABC object at 0x0474AB70>, need_data = 3\n\n    def test_a(self,need_data):\n        print(\"------->test_a\")\n>       assert need_data != 3 # 断言need_data不等于3\nE       assert 3 != 3\n\nclsp\\Test_App4.py:11: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "need_data",
+    "time" : {
+      "start" : 1602663491971,
+      "stop" : 1602663491971,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "clsp"
+  }, {
+    "name" : "suite",
+    "value" : "Test_App4"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_ABC"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-LFNOOUSC"
+  }, {
+    "name" : "thread",
+    "value" : "15616-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "clsp.Test_App4"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "need_data",
+    "value" : "3"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2dc3d946747490fe.json",
+  "parameterValues" : [ "3" ]
+}
