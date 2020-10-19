@@ -1,3 +1,4 @@
+# coding=utf-8
 import pytest
 
 class Test_ABC:
